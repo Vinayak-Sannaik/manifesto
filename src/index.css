@@ -22,6 +22,7 @@ body {
   gap: 20px;
 }
 .timer {
+  margin-top: -10px;
   font-size: 2.2rem;
   font-weight: 600;
   color: aqua;
@@ -73,7 +74,7 @@ body {
 }
 
 .recording, .music{
-  color: aliceblue;
+  color: aqua;;
   font-size: 1.2rem;
 }
 .long-timer{
@@ -112,5 +113,6 @@ h1{
   letter-spacing: 10px;
   font-weight: 300;
   margin-top: 100px;
-  color: aqua;
+  color: rgb(66, 75, 75);
+  font-family: 'Times New Roman', Times, serif;
 }
