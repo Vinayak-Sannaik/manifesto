@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+  gap: 20px;
+}
+.timer {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: aqua;
+}
+.mic{
+  width: 50px;
+}
+.mic:hover{
+  scale: 1.05;
+}
+.start-button,
+.pause-button {
+  width: 150px;
+  padding: 8px;
+  background-color: rgb(104, 121, 180);
+  margin: 5px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.start-button:hover,
+.pause-button:hover{
+  scale: 1.06;
+}
+.line{
+  color: aliceblue;
+}
+.upload{
+  margin-top: 20px;
+  width: 50px;
+}
+.add-recording{
+  color: rgb(225, 225, 212);
+}
+
+.set-timer-button, .go-home-button{
+  width: 150px;
+  padding: 8px;
+  background-color: rgb(64, 65, 67);
+  margin: 5px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: bisque;
+  margin-bottom: 20px;
+}
+.set-timer-button span{
+  font-weight: 600;
+}
+.set-timer-button:hover{
+  transform: translateX(5px);
+}
+.go-home-button:hover{
+  transform: translateX(-5px);
+}
+.recording, .music{
+  color: aliceblue;
+  font-size: 1.2rem;
+}
+.long-timer{
+  margin-top: 20px;
+  display: flex;
+  color: aliceblue;
+  font-size: 1.2rem;
+  gap: 15px;
+}
+
+.start-listening{
+  width: 160px;
+  padding: 12px ;
+  background-color: rgb(157, 185, 241);
+  margin: 5px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: rgb(8, 8, 8);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.start-listening:hover{
+  scale: 1.06;
+  background-color: rgb(104, 131, 185);
+}
+
+.left-btn, .right-btn{
+  width: 60px;
+}
+.left-btn:hover,
+.right-btn:hover{
+  scale: 1.5;
+}
+
+h1{
+  letter-spacing: 10px;
+  font-weight: 300;
+  margin-top: 100px;
+  color: aqua;
+}
