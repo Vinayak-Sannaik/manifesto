@@ -42,7 +42,9 @@ body {
   font-weight: 600;
 }
 .start-button:hover,
-.pause-button:hover{
+.pause-button:hover,
+.set-timer-button:hover,
+.go-home-button:hover{
   scale: 1.06;
 }
 .line{
@@ -69,12 +71,7 @@ body {
 .set-timer-button span{
   font-weight: 600;
 }
-.set-timer-button:hover{
-  transform: translateX(5px);
-}
-.go-home-button:hover{
-  transform: translateX(-5px);
-}
+
 .recording, .music{
   color: aliceblue;
   font-size: 1.2rem;

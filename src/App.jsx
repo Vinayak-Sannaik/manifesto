@@ -1,15 +1,16 @@
 import React from 'react'
-import Timer from './component1/Timer'
-import Home from './pages/Home'
-import SetTime from './pages/SetTime'
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from '../src/pages/Home';
+import SetTime from './pages/SetTime';
 
 function App() {
   return (
-    <div>
-    {/* <Home /> */}
-    <SetTime />
-    </div>
-    
+    <Router>
+      <Routes>
+        <Route path="/*" element={<Home />} />
+        <Route path="/listen" element={<SetTime />} />
+      </Routes>
+    </Router>
   )
 }
 
